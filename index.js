@@ -14,20 +14,7 @@ function johnLennonFacts() {
     newFacts.push(facts[i] + "!!!");
     i++;
   }
-  var fooBarFacts = ["foo","bar"];
-  var newFooBarFacts = [];
-  while ( i < fooBarFacts.length ) {
-    newFooBarFacts.push(fooBarFacts[i] + "!!!");
-    i++;
-    return newFacts;
-    
-  var fooBarFacts = ["foo","bar"];
-  var newFooBarFacts = [];
-  while ( i < fooBarFacts.length ) {
-    newFooBarFacts.push(fooBarFacts[i] + "!!!");
-    i++;
-    return newFooBarFacts;
-  }
+  return newFacts;
 }
 
 function iLoveTheBeatles(num) {
