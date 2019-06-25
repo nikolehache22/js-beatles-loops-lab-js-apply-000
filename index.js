@@ -13,7 +13,7 @@ function johnLennonFacts() {
   while ( i < facts.length ) {
     newFacts.push(facts[i] + "!!!");
     i++;
-    return newfacts;
+    return newFacts;
   }
   var fooBarFacts = ["foo","bar"];
   while ( i < fooBarFactsacts.length ) {
