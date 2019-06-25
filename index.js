@@ -13,11 +13,18 @@ function johnLennonFacts() {
   while ( i < facts.length ) {
     newFacts.push(facts[i] + "!!!");
     i++;
-    return newFacts;
   }
   var fooBarFacts = ["foo","bar"];
-  while ( i < fooBarFactsacts.length ) {
-    newFooBarFacts.push(newFactsacts[i] + "!!!");
+  var newFooBarFacts = [];
+  while ( i < fooBarFacts.length ) {
+    newFooBarFacts.push(fooBarFacts[i] + "!!!");
+    i++;
+    return newFacts;
+    
+  var fooBarFacts = ["foo","bar"];
+  var newFooBarFacts = [];
+  while ( i < fooBarFacts.length ) {
+    newFooBarFacts.push(fooBarFacts[i] + "!!!");
     i++;
     return newFooBarFacts;
   }
